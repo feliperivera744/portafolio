@@ -1,0 +1,12 @@
+<div class="row">
+    <h1>Proyectos</h1>
+  <div class="card-group">
+    <div class="card" *ngFor="let i of proyectos">
+      <img src="{{ i.imagen }}" class="card-img-top" />
+      <div class="card-body">
+        <h5 class="card-title">{{i.nombre}}</h5>
+        <p class="card-text"> {{i.preparacion}}  </p>
+      </div>
+    </div>   
+  </div>
+</div>
